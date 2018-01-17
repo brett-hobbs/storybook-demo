@@ -1,0 +1,49 @@
+:local {
+  .navContainer {
+    display: inline-block;
+  }
+
+  .imgContainer {
+    display: inline-block;
+    position: relative;
+  }
+
+  .dotContainer {
+    position: relative;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 3px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .activeDot {
+    background: #888;
+  }
+
+  .arrow {
+    position: absolute;
+    background: white;
+    top: 50%;
+    opacity: 0;
+  }
+
+  .arrowLeft {
+    left: 0;
+  }
+
+  .arrowRight {
+    right: 0;
+  }
+
+  .imgContainer:hover {
+    .arrow {
+      opacity: 1;
+    }
+  }
+}
