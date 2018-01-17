@@ -6,8 +6,6 @@
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/.bin/eslint ./src",
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --content-base ./",
-    "prod": "NODE_ENV=production babel-node ./server.js",
     "postinstall": "webpack -p",
     "watch": "jest --watch",
     "storybook": "start-storybook -p 6006 -c .storybook",
@@ -20,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brett-hobbs/simple-web-app.git"
+    "url": "git+https://github.com/brett-hobbs/storybook-demo.git"
   },
   "author": "Brett Hobbs",
-  "homepage": "https://github.com/brett-hobbs/simple-web-app#readme",
+  "homepage": "https://github.com/brett-hobbs/storybook-demo#readme",
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.9",
     "@storybook/addon-console": "^1.0.0",
