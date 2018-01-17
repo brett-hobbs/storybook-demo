@@ -8,7 +8,7 @@
     "lint": "./node_modules/.bin/eslint ./src",
     "watch": "jest --watch",
     "storybook": "start-storybook -p 6006 -c .storybook",
-    "storybook-on-heroku": "npm install; node_modules/.bin/start-storybook -p 443 -c .storybook",
+    "storybook-on-heroku": "npm install; ./node_modules/.bin/start-storybook -p 443 -c .storybook",
     "build-storybook": "build-storybook"
   },
   "jest": {
