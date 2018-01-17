@@ -6,5 +6,5 @@ import { Toolbar } from '../src/toolbar'
 import { storiesOf } from '@storybook/react'
 
 storiesOf('Alignment Toolbar', module)
-  .addWithJSX('Enabled', () => <Toolbar onChange={action('onChange')} />)
-  .addWithJSX('Disabled', () => <Toolbar />)
+  .add('Enabled', () => <Toolbar onChange={action('onChange')} />)
+  .add('Disabled', () => <Toolbar />)

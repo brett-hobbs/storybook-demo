@@ -6,7 +6,6 @@
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/.bin/eslint ./src",
-    "postinstall": "webpack -p",
     "watch": "jest --watch",
     "storybook": "start-storybook -p 6006 -c .storybook",
     "build-storybook": "build-storybook"

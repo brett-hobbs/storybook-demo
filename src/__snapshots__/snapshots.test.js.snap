@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Alignment Toolbar Disabled 1`] = `
+<div
+  className="btn-group"
+>
+  <button
+    className="btn btn-default"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-align-left fa-2x"
+    />
+  </button>
+  <button
+    className="btn btn-default"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-align-center fa-2x"
+    />
+  </button>
+  <button
+    className="btn btn-default"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-align-right fa-2x"
+    />
+  </button>
+</div>
+`;
+
+exports[`Storyshots Alignment Toolbar Enabled 1`] = `
+<div
+  className="btn-group"
+>
+  <button
+    className="btn btn-default"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-align-left fa-2x"
+    />
+  </button>
+  <button
+    className="btn btn-default"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-align-center fa-2x"
+    />
+  </button>
+  <button
+    className="btn btn-default"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-align-right fa-2x"
+    />
+  </button>
+</div>
+`;
